@@ -1,0 +1,42 @@
+.jumbotron {
+	padding-top: 6rem;
+	background-color: #e2edff;
+}
+
+#projects {
+	background-color: #e2edff;
+}
+
+section {
+	padding-top: 5rem;
+}
+
+h1 {
+	font-family: "Permanent Marker", cursive;
+}
+
+.name {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-text-stroke: 1px black;
+	color: transparent;
+	background-image: linear-gradient(#fff, rgb(33, 136, 215));
+	background-repeat: no-repeat;
+	-webkit-background-clip: text;
+	background-position: -750px 0;
+	animation: backcolor 2s linear infinite alternate;
+}
+
+@keyframes backcolor {
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.profesi {
+	font-weight: bold;
+	font-family: "Permanent Marker", cursive;
+	font-size: 20px;
+}
